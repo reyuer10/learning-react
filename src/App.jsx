@@ -6,12 +6,14 @@ import Category from "./components/Category";
 
 export default function App() {
   return (
-    <Routes>
+   <div className="font-poppins">
+     <Routes>
       <Route element={<RootLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/hello-react" element={<HelloWorld />} />
         <Route path="/category" element={<Category />} />
       </Route>
     </Routes>
+   </div>
   );
 }

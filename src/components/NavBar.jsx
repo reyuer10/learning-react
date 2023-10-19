@@ -9,7 +9,7 @@ export default function NavBar() {
     navigate("/");
   };
   return (
-    <div className="font-barlow flex justify-between p-5">
+    <div className="flex justify-between p-5">
       <div onClick={handleHomeClick} className="cursor-pointer">
         <p className="text-[#61DAFB] font-bold flex items-center text-2xl">
           <FaReact className="mx-2" />

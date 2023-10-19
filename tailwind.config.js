@@ -8,6 +8,8 @@ export default {
     extend: {},
     fontFamily: {
       "barlow": ['Barlow Condensed', 'sans-serif'],
+      "poppins": ['Poppins','sans-serif']
+      
     }
   },
   plugins: [],
