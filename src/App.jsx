@@ -1,8 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import RootLayout from "./layout/RootLayout";
+
+// Components
 import Home from "./components/Home";
-import HelloWorld from "./pages/HelloWorld";
+import HelloWorld from "./pages/SecondContainer";
 import Category from "./components/Category";
+
+// Pages
+import SecondContainer from "./pages/SecondContainer";
 
 export default function App() {
   return (
